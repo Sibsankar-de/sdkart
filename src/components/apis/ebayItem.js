@@ -2,14 +2,15 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import Swal from "sweetalert2";
 
+const apiURI = process.env.REACT_APP_API_URI
+
 const useSearchEbayData = (params) => {
     const [data, setData] = useState(null);
-
     useEffect(() => { fetchData() }, [])
 
     const fetchData = async () => {
         try {
-            const res = await axios.get('/api/v1/search',
+            const res = await axios.get(`${apiURI}/search`,
                 {
                     params: params,
                 }
@@ -44,7 +45,7 @@ const useEbayItemData = (itemid) => {
 
     const fetchData = async () => {
         try {
-            const res = await axios.get(`/api/v1/item/${itemid}`)
+            const res = await axios.get(`${apiURI}/item/${itemid}`)
             setData(res.data);
         } catch (error) {
             // console.error(error);
