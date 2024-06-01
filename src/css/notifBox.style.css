@@ -1,0 +1,42 @@
+
+.ss-notif-box-container{
+    background-color: #ebebeb;
+    position: fixed;
+    width: 30vw;
+    height: 100vh;
+    right: 0;
+    transition: .4s;
+    top: 4em;
+    z-index: 2;
+}
+
+.ss-notif-box-container-closed{
+    width: 0vw !important;
+    opacity: 0;
+}
+
+.ss-notif-box-content-box{
+    padding: 1em;
+}
+
+/***** Responsive Css *****/
+
+@media screen and (max-width: 895px) {
+    .ss-notif-box-container{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .ss-notif-box-container{
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .ss-notif-box-container{
+        width: 100vw;
+    }
+}
+
+/***** End Responsive Css *****/

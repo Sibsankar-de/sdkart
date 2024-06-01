@@ -1,0 +1,156 @@
+.ss-navbox {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+.ss-navbar {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    background-color: #ffff;
+    padding: 0.5em 1em;
+}
+
+.ss-nav-sec-1 {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 2em;
+}
+
+.ss-nav-logo-box img {
+    width: 130px;
+}
+
+.ss-nav-search-bar-box {
+    display: flex;
+    align-items: center;
+}
+
+.ss-nav-search-btn {
+    position: absolute;
+    font-size: 1.2em;
+    padding: 0 0.5em;
+}
+
+#ss-search-bar {
+    width: 35em;
+    padding-left: 2.5em;
+    background-color: #edf4fd;
+    border: none;
+    height: 2.7em;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+#ss-search-bar:focus {
+    box-shadow: 0 0 3px 0 #c2d1e6;
+}
+
+.ss-nav-opt-sec {
+    display: flex;
+    gap: 1em;
+    justify-self: center;
+}
+
+.ss-nav-opt-sec-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+.ss-nav-opt-sec-btn:hover {
+    background-color: #f4f4f4;
+    border-color: #cccccc;
+}
+
+.ss-cart-count-box {
+    position: absolute;
+    background-color: #e74717;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 0.1em 0.2em;
+    text-align: center;
+    min-width: 18px;
+}
+
+/* ############### */
+.ss-res-search-box{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: #ffff;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.ss-res-nav-search-bar-box{
+    display: flex !important;
+}
+
+.ss-res-nav-search-bar-box #ss-search-bar{
+    width: 80vw;
+}
+
+/***** Responsive Css *****/
+
+@media screen and (max-width: 1000px) {
+    #ss-search-bar {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ss-nav-logo-box img {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .ss-nav-sec-1 {
+        gap: 1em;
+    }
+
+    #ss-search-bar {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .ss-nav-opt-sec {
+        gap: 0.5em;
+    }
+
+    #ss-search-bar {
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .ss-nav-opt-sec {
+        gap: 0.7em;
+    }
+
+    .ss-nav-search-bar-box{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .ss-nav-opt-sec {
+        gap: 0.3em;
+    }
+
+    .ss-nav-logo-box img {
+        width: 80px;
+    }
+}
+
+/***** End Responsive Css *****/

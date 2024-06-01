@@ -1,0 +1,117 @@
+.container {
+    max-width: calc(100vw - 2em);
+    width: calc(100vw - 2em);
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0;
+    margin-top: 5em;
+    min-height: 80vh;
+}
+
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.ss-justify-s-end {
+    justify-self: end;
+}
+
+.ss-bb-2 {
+    border-bottom: 2px solid #c9c9c9;
+}
+
+.ss-text-fade {
+    color: #747474;
+}
+
+.ss-fs-sm{
+    font-size: 0.9em;
+}
+
+.ss-add-t-cart-btn {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(72deg, #d9a73b, #df9322);
+    transition: 0.4s;
+    color: #ffff;
+}
+
+.ss-add-t-cart-btn:hover {
+    box-shadow: 0 0 3px 0 #503f1b;
+}
+
+.ss-add-t-cart-btn:active {
+    scale: 0.95;
+}
+
+.ss-share-btn {
+    padding: 0.4em 0.8em;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1em;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    background-color: #b7b6b6cf;
+    transition: 0.2s;
+}
+
+.ss-share-btn:hover {
+    border: 1px solid #8d8d8d;
+    background-color: #b7b6b6;
+}
+
+.ss-share-btn:active {
+    border: 1px solid #8d8d8d;
+    scale: 0.95;
+    background-color: #ffff;
+}
+
+.ss-star-box {
+    color: #ebb131;
+}
+
+/***** Rate slider css *****/
+.ss-rate-show-slider-box {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    font-size: small;
+}
+
+.ss-rate-show-slider-track {
+    width: 10em;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #91919165;
+}
+
+.ss-rate-show-slider {
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-image: linear-gradient(72deg, #d9a73b, #df9322);
+}
+
+/***** End Rate slider css *****/
+
+/***** footer style sheet *****/
+.ss-footer {
+    margin-top: 4em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+    border-top: 1px solid #0000003f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ss-fl-2 {
+    color: #5a5a5a;
+    font-size: 0.8em;
+}
+
+/***** End footer style sheet *****/

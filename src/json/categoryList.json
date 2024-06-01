@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Mobiles & Tabs",
+        "img_url": "cat_img1.webp",
+        "category_ids": "9355,80077,171485"
+    },
+    {
+        "name": "Fashion",
+        "img_url": "cat_img2.webp",
+        "category_ids": "260012,11450,260010,171146"
+    },
+    {
+        "name": "Electronics",
+        "img_url": "cat_img3.webp",
+        "category_ids": "58058,177,179,176970"
+
+    },
+    {
+        "name": "Appliances",
+        "img_url": "cat_img4.webp",
+        "category_ids": "20667"
+    },
+    {
+        "name": "Beauty",
+        "img_url": "cat_img5.webp",
+        "category_ids": "180931,26395"
+    },
+    {
+        "name": "Home & Kitchen",
+        "img_url": "cat_img6.webp",
+        "category_ids": "20625,11700,20667"
+    },
+    {
+        "name": "Furnitures",
+        "img_url": "cat_img7.webp",
+        "category_ids": "38208,3197"
+    }
+]
