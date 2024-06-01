@@ -5,7 +5,6 @@ Welcome to SDkart! This repository contains the source code for SDkart, a modern
 ## Features
 
 - **Responsive Design:** Optimized for both desktop and mobile devices to ensure a great user experience on any device.
-- **User Authentication:** Secure user login and registration system to protect user data.
 - **Product Management:** Efficient retrieval and display of product data from eBay.
 - **Shopping Cart:** Persistent shopping cart that saves user selections across sessions.
 - **Search and Filtering:** Advanced search and filtering options to help users find products easily.
