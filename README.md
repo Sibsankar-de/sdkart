@@ -8,15 +8,12 @@ Welcome to SDkart! This repository contains the source code for SDkart, a modern
 - **User Authentication:** Secure user login and registration system to protect user data.
 - **Product Management:** Efficient retrieval and display of product data from eBay.
 - **Shopping Cart:** Persistent shopping cart that saves user selections across sessions.
-- **Order Processing:** Seamless checkout process with order tracking.
 - **Search and Filtering:** Advanced search and filtering options to help users find products easily.
-- **Customer Reviews:** System for customers to leave reviews and ratings on products.
 
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript, React
 - **Backend:** Node.js, Express
-- **Database:** MongoDB (for user data and local storage of shopping cart data)
 - **API Integration:** eBay API for product data
 
 ## Installation
